@@ -29,6 +29,10 @@ h1,h2,h3,h4,h5,h6 {
 .button {
     text-align:left;
     font-family: 'Courier New', Courier, monospace;
-    color: #3355ff;
-    background-color: #112211;
+    color: #6688ff;
+    background-color: #bbffaa;
+}
+.button:hover {
+    cursor:pointer;
+    border: 2px solid black;
 }
