@@ -1,5 +1,25 @@
-html { background: red; }
-body { background: blue; }
+html {
+    background-image: url("/myWorld/images/windowsXP.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #ccffbb;
+}
+
+body {
+    margin-left:10%;
+    margin-right:10%;
+    text-align: justify;
+    
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background: transparent !important;
+    color: #112211;
+}
 
 img {
     display: block;
@@ -50,4 +70,12 @@ h1,h2,h3,h4,h5,h6 {
 .button:hover {
     cursor:pointer;
     border: 2px solid black;
+}
+
+html {
+    background: red !important;
+}
+
+body {
+    background: blue !important;
 }
