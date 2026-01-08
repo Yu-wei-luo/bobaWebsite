@@ -1,0 +1,68 @@
+body {
+    margin-left:10%;
+    margin-right:10%;
+    text-align: justify;
+    
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background: #ccffbb;
+    color: #112211;
+
+    background-image: url("/images/windowsXP.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.subheading {
+    text-align:center;
+    font-family: monospace;
+    color:#333355;
+}
+
+.divider {
+    text-align:center;
+    font-family: monospace;
+    color: black;
+}
+
+.hidden-button {
+    text-decoration-line: none;
+    color: #112211;
+}
+.hidden-button:visited {
+    text-decoration-line: underline;
+    color: unset;
+}
+.hidden-button:hover {
+    text-decoration-line: underline;
+    cursor:pointer;
+}
+
+.button {
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #6688ff;
+    background-color: #bbffaa;
+}
+.button:hover {
+    cursor:pointer;
+    border: 2px solid black;
+}
