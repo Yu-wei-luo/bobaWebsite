@@ -2,6 +2,8 @@ body {
     margin-left:40%;
     margin-right:40%;
     text-align: justify;
+    text-indent: 10%;
+    
     font-family: "Lilex", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
